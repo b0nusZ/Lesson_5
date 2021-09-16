@@ -1,0 +1,82 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+.mainzagolovok {
+	color: darkblue;
+}
+.text	{
+	color: darkcyan;
+}
+
+.text span {
+	color: darkred;
+}
+
+.podzagolovok {
+	color: darkorange;
+}
+
+.text1 span {
+	color: darkslateblue;
+}
+
+.text1 p {
+	color: darkseagreen;
+}
+.podzagolovok2 {
+	color: gold;
+}
+
+.text2 p {
+	color: hotpink;
+}
+
+.podzagolovok3 {
+	color: lightblue;
+}
+
+.text3 .text4 {
+	color: red;
+}
+
+.text3 p {
+	color:  yellow;
+}
+
+.text5 .text6 p {
+	color: royalblue;	
+}
+
+.text5 p {
+	color: yellow;
+}
+
