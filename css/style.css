@@ -1,3 +1,31 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900&display=swap");
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("../fonts/BebasNeueLight.woff2") format("woff2"), url("../fonts/BebasNeueLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "ReformaGroteskMediumC";
+	src: url("../fonts/ReformaGroteskMediumC.woff2") format("woff2"), url("../fonts/ReformaGroteskMediumC.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "ReformaGroteskBoldC";
+	src: url("../fonts/ReformaGroteskBoldC.woff2") format("woff2"), url("../fonts/ReformaGroteskBoldC.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
 *::before,
@@ -28,55 +56,91 @@ h6 {
 img {
 	vertical-align: top;
 }
-/* --------------- */
-
-.mainzagolovok {
-	color: darkblue;
+html {
 }
-.text	{
-	color: darkcyan;
+body {
+	font-family: "Caveat", sans-serif;
+	line-height: 1;
+}
+/* ------------------------------ */
+
+.zagolovok {
+	font-family: "Inconsolata", sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: #2e80c4;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	letter-spacing: -1px;
 }
 
-.text span {
-	color: darkred;
+.menu {
+	font-family: "ReformaGroteskMediumC", sans-serif;
+	font-size: 30px;
+	text-decoration: underline;
+	text-align: right;
+	color: #d35151;
 }
 
-.podzagolovok {
-	color: darkorange;
+.podzagolovok1 {
+	font-size: 40px;
+	text-shadow: 1px 1px 2px #2e80c4;
+}
+
+.text1 {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 120%;
 }
 
 .text1 span {
-	color: darkslateblue;
+	font-size: 40px;
+	font-weight: 700;
+	font-style: italic;
+	color: rgba(181, 105, 219, 0.5);
 }
 
-.text1 p {
-	color: darkseagreen;
+.link {
+	font-family: "Bebas Neue";
+	font-size: 25px;
+	color: #523b5e;
+	text-decoration: underline;
+	text-transform: uppercase;
 }
+
 .podzagolovok2 {
-	color: gold;
+	font-size: 45px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 2px 2px 1px #d35151;
+	color: #8a2be2;
 }
 
-.text2 p {
-	color: hotpink;
+.text2 {
+	font-size: 30px;
+	font-style: oblique;
+	color: #ff7f50;
+	line-height: 150%;
+	text-align: justify;
 }
 
-.podzagolovok3 {
-	color: lightblue;
+.pict {
+	text-align: center;
 }
 
-.text3 .text4 {
-	color: red;
+.footer {
+	font-size: 60px;
+	font-weight: 700;
+	color: #dc143c;
+	text-shadow: -3px -1px 1px #dc143c;
+	letter-spacing: 2px;
 }
 
-.text3 p {
-	color:  yellow;
+.footer_link {
+	font-family: "ReformaGroteskBoldC", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	font-style: oblique;
+	text-align: right;
 }
-
-.text5 .text6 p {
-	color: royalblue;	
-}
-
-.text5 p {
-	color: yellow;
-}
-
