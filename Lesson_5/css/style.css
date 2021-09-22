@@ -1,0 +1,229 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Gemunu+Libre:200,300,regular,500,600,700,800&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Ettielier";
+	src: url("../fonts/Ettielier-Regular.woff2") format("woff2"), url("../fonts/Ettielier-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+}
+body {
+	line-height: 1;
+	font-family: "Gemunu Libre", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.block {
+	font-family: "Ettielier", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+	background-color: #c91e1e;
+	overflow: hidden;
+}
+
+.block_2 {
+	display: inline-block;
+	background-color: #deb887;
+	font-size: 20px;
+	width: 50%;
+	height: 400px;
+}
+
+.block_3 {
+	display: inline-block;
+	background-color: #5f9ea0;
+	font-size: 20px;
+	width: 300px;
+	max-height: 300px;
+}
+
+.block_4 {
+	display: inline-block;
+	font-size: 30px;
+	background-color: #b8860b;
+	width: 500px;
+	margin: 0px 0px 0px 100px;
+	padding: 15px;
+	height: 400px;
+	overflow: auto;
+}
+
+.block_5 {
+	font-family: "Ettielier", sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	font-size: 40px;
+	background-color: #7fff00;
+	width: 200px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.img {
+	display: block;
+	background-color: #dc143c;
+	padding: 25px;
+	max-width: 500px;
+	margin: 0px auto;
+}
+
+.link {
+	display: inline-block;
+	background-color: #00ffff;
+	padding: 20px;
+	margin: 50px 0px 0px 50px;
+}
+
+.text {
+	display: block;
+	font-size: 20px;
+	line-height: 70px;
+	width: 300px;
+	margin: 0px auto;
+}
+
+.block_dz1 {
+	display: inline-block;
+	font-size: 20px;
+	max-height: 200px;
+	max-width: 200px;
+	padding: 15px;
+	background-color: #ff7f50;
+	overflow: hidden;
+}
+
+.block_dz2 {
+	display: inline-block;
+	font-size: 20px;
+	max-height: 200px;
+	max-width: 200px;
+	padding: 15px;
+	background-color: #dc143c;
+	overflow: hidden;
+}
+
+.block_dz3 {
+	display: inline-block;
+	font-size: 20px;
+	max-height: 200px;
+	max-width: 200px;
+	padding: 15px;
+	background-color: #9932cc;
+	overflow: hidden;
+}
+
+.link_dz {
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+	background-color: #ff0000;
+}
+
+.link_dz_centr {
+	text-align: center;
+}
+
+.p_text1 {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 100px;
+	padding: 10px;
+	margin: 0px 30px 0px 0px;
+	background-color: #2f4f4f;
+	overflow: hidden;
+}
+
+.p_text2 {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 100px;
+	padding: 10px;
+	margin: 0px 30px 0px 0px;
+	background-color: #ff1493;
+	overflow: hidden;
+}
+
+.p_text3 {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 100px;
+	padding: 10px;
+	margin: 0px 30px 0px 0px;
+	background-color: #ffd700;
+	overflow: hidden;
+}
+
+.p_text4 {
+	display: inline-block;
+	font-size: 20px;
+	max-width: 100px;
+	padding: 10px;
+	background-color: #f0e68c;
+	overflow: hidden;
+}
+
+.text_dz1 {
+	font-size: 25px;
+	background-color: #7cfc00;
+	padding: 30px;
+}
+.text_dz2 {
+	font-size: 25px;
+	background-color: #ffa07a;
+	padding: 30px;
+	margin: -50px 0px 0px 0px;
+}
+
+.big_text {
+	display: inline-block;
+	font-size: 40px;
+	max-height: 200px;
+	background-color: #ff00ff;
+	overflow: auto;
+}
