@@ -1,10 +1,10 @@
 /* &display=swap&subset=cyrillic-ext */
 
-@import url("https://fonts.googleapis.com/css?family=Gemunu+Libre:200,300,regular,500,600,700,800&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Stick+No+Bills:200,300,regular,500,600,700,800&display=swap&subset=cyrillic-ext");
 
 @font-face {
-	font-family: "Ettielier";
-	src: url("../fonts/Ettielier-Regular.woff2") format("woff2"), url("../fonts/Ettielier-Regular.woff") format("woff");
+	font-family: "Fave Script";
+	src: url("../fonts/Fave-Script.woff2") format("woff2"), url("../fonts/Fave-Script.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -49,7 +49,7 @@ html {
 }
 body {
 	line-height: 1;
-	font-family: "Gemunu Libre", sans-serif;
+	font-family: "Stick No Bills", sans-serif;
 }
 .wrapper {
 	min-height: 100%;
@@ -58,7 +58,7 @@ body {
 /* ------------------------------ */
 
 .block {
-	font-family: "Ettielier", sans-serif;
+	font-family: "Fave Script", sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	width: 100px;
@@ -96,7 +96,7 @@ body {
 }
 
 .block_5 {
-	font-family: "Ettielier", sans-serif;
+	font-family: "Fave Script", sans-serif;
 	font-weight: 700;
 	display: inline-block;
 	font-size: 40px;
