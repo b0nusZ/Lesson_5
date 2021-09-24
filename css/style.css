@@ -1,14 +1,9 @@
-/* &display=swap&subset=cyrillic-ext */
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
 
-@import url("https://fonts.googleapis.com/css?family=Stick+No+Bills:200,300,regular,500,600,700,800&display=swap&subset=cyrillic-ext");
-
-@font-face {
-	font-family: "Fave Script";
-	src: url("../fonts/Fave-Script.woff2") format("woff2"), url("../fonts/Fave-Script.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700&display=swap");
 
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
@@ -46,184 +41,197 @@ body {
 	height: 100%;
 }
 html {
+	font-size: 16px; /* по умолчанию */
 }
 body {
 	line-height: 1;
-	font-family: "Stick No Bills", sans-serif;
 }
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	padding: 20px;
 }
 /* ------------------------------ */
 
-.block {
-	font-family: "Fave Script", sans-serif;
-	font-size: 20px;
-	font-weight: 700;
-	width: 100px;
-	height: 100px;
+.block_main {
+	width: 75%;
 	margin: 0px auto;
-	background-color: #c91e1e;
+}
+
+.block_1 {
+	display: inline-block;
+	border: 4px solid #a0b3a8;
+	width: 300px;
+	max-height: 200px;
 	overflow: hidden;
+	padding: 20px;
+	margin: 30px 0px 0px 0px;
+	background-color: rgba(160, 179, 168, 0.7);
 }
 
 .block_2 {
 	display: inline-block;
-	background-color: #deb887;
-	font-size: 20px;
-	width: 50%;
-	height: 400px;
+	border: 6px dashed #a0b3a8;
+	width: 300px;
+	max-height: 200px;
+	overflow: hidden;
+	padding: 20px;
+	margin: 30px 0px 0px 0px;
+	background-color: rgba(160, 179, 168, 0.7);
+	vertical-align: top;
+	overflow: auto;
 }
 
 .block_3 {
 	display: inline-block;
-	background-color: #5f9ea0;
-	font-size: 20px;
+	border: 5px dotted #a0b3a8;
 	width: 300px;
-	max-height: 300px;
-}
-
-.block_4 {
-	display: inline-block;
-	font-size: 30px;
-	background-color: #b8860b;
-	width: 500px;
-	margin: 0px 0px 0px 100px;
-	padding: 15px;
-	height: 400px;
-	overflow: auto;
-}
-
-.block_5 {
-	font-family: "Fave Script", sans-serif;
-	font-weight: 700;
-	display: inline-block;
-	font-size: 40px;
-	background-color: #7fff00;
-	width: 200px;
-	height: 300px;
+	max-height: 200px;
 	overflow: hidden;
+	padding: 20px;
+	margin: 30px 0px 0px 0px;
+	background-color: rgba(160, 179, 168, 0.7);
+	vertical-align: top;
+}
+
+.circle_main {
+	height: 400px;
+	margin: 100px 0px 100px 0px;
+	background-color: #ecc8c9;
+	border-radius: 40px;
+	border: 2px solid #b157a6;
+}
+
+.circle_1 {
+	background-color: #bb99b7;
+	padding: 30px;
+	border-radius: 25px;
+	margin: 15px 0px 15px 0px;
+}
+
+.circle_2 {
+	background-color: #bb99b7;
+	padding: 30px;
+	border-radius: 25px;
+	margin: 0px 0px 10px 0px;
+	font-family: "Dancing Script";
+	font-size: 20px;
+}
+
+.circle_3 {
+	background-color: #bb99b7;
+	padding: 30px;
+	border-radius: 25px;
+	margin: 0px 0px 0px 0px;
+	line-height: 90%;
 }
 
 .img {
 	display: block;
-	background-color: #dc143c;
-	padding: 25px;
 	max-width: 500px;
 	margin: 0px auto;
+	border: 10px double #262741;
+	border-radius: 15px;
 }
 
-.link {
+.round_1 {
 	display: inline-block;
-	background-color: #00ffff;
-	padding: 20px;
-	margin: 50px 0px 0px 50px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #eeeb33;
+	text-align: center;
+	padding: 100px 0px 0px 0px;
+	font-weight: 700;
+	box-shadow: 5px 10px 30px 5px #c575bc;
 }
 
-.text {
-	display: block;
-	font-size: 20px;
-	line-height: 70px;
+.round_2 {
+	font-family: "Dancing Script";
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #e48826;
+	text-align: center;
+	padding: 100px 0px 0px 0px;
+	vertical-align: top;
+	box-shadow: -50px -25px 30px 5px #c575bc;
+	opacity: 0.7;
+}
+
+.round_main {
+	background-color: aqua;
+	margin: 30px;
+	padding: 20px;
+	border-radius: 30px;
+	text-align: center;
+}
+
+.task_centr {
 	width: 300px;
 	margin: 0px auto;
 }
 
-.block_dz1 {
+.task {
+	color: rgb(209, 66, 66);
+	font-size: 50px;
+	border: 2px solid #b157a6;
 	display: inline-block;
-	font-size: 20px;
-	max-height: 200px;
-	max-width: 200px;
-	padding: 15px;
+	width: 300px;
+	text-align: center;
+	border-radius: 30px;
+	background-color: rgb(83, 183, 187);
+}
+
+.krug {
+	width: 200px;
+	height: 200px;
+	background-color: #262741;
+	border-radius: 50%;
+}
+
+.block_p {
+	margin: 35px;
+	padding: 10px;
+	border: 3px solid #c575bc;
+	background-color: #ecc8c9;
+	border-radius: 25px;
+	opacity: 0.5;
+}
+
+.text {
+	display: inline-block;
+	border: 2px dashed #eeeb33;
+	background-color: #faebd7;
+	margin: 50px;
+	padding: 20px;
+}
+
+.block_gr {
+	margin: 60px;
+	padding: 50px;
 	background-color: #ff7f50;
-	overflow: hidden;
+	border-left: 10px double rgba(166, 68, 33, 0.3);
+	border-right: 15px solid #eeeb33;
+	border-top: 8px dashed #b157a6;
+	border-bottom: 20px dotted #262741;
+	font-style: italic;
+	font-size: 25px;
 }
 
-.block_dz2 {
-	display: inline-block;
-	font-size: 20px;
-	max-height: 200px;
-	max-width: 200px;
-	padding: 15px;
-	background-color: #dc143c;
-	overflow: hidden;
-}
-
-.block_dz3 {
-	display: inline-block;
-	font-size: 20px;
-	max-height: 200px;
-	max-width: 200px;
-	padding: 15px;
-	background-color: #9932cc;
-	overflow: hidden;
-}
-
-.link_dz {
-	display: inline-block;
-	margin: 0px 0px 30px 0px;
-	background-color: #ff0000;
-}
-
-.link_dz_centr {
+.button_c {
 	text-align: center;
 }
 
-.p_text1 {
+.button {
 	display: inline-block;
-	font-size: 20px;
-	max-width: 100px;
+	background-color: #bb99b7;
+	border-radius: 30px;
 	padding: 10px;
-	margin: 0px 30px 0px 0px;
-	background-color: #2f4f4f;
-	overflow: hidden;
-}
-
-.p_text2 {
-	display: inline-block;
-	font-size: 20px;
-	max-width: 100px;
-	padding: 10px;
-	margin: 0px 30px 0px 0px;
-	background-color: #ff1493;
-	overflow: hidden;
-}
-
-.p_text3 {
-	display: inline-block;
-	font-size: 20px;
-	max-width: 100px;
-	padding: 10px;
-	margin: 0px 30px 0px 0px;
-	background-color: #ffd700;
-	overflow: hidden;
-}
-
-.p_text4 {
-	display: inline-block;
-	font-size: 20px;
-	max-width: 100px;
-	padding: 10px;
-	background-color: #f0e68c;
-	overflow: hidden;
-}
-
-.text_dz1 {
-	font-size: 25px;
-	background-color: #7cfc00;
-	padding: 30px;
-}
-.text_dz2 {
-	font-size: 25px;
-	background-color: #ffa07a;
-	padding: 30px;
-	margin: -50px 0px 0px 0px;
-}
-
-.big_text {
-	display: inline-block;
-	font-size: 40px;
-	max-height: 200px;
-	background-color: #ff00ff;
-	overflow: auto;
+	font-size: 50px;
+	font-family: "Dancing Script";
+	color: #88167b;
+	border: 2px solid #c575bc;
+	box-shadow: 5px 3px 7px 2px #88167b;
 }
