@@ -1,9 +1,8 @@
-/* 
-&display=swap
-&subset=cyrillic-ext 
-*/
+/* &display=swap&subset=cyrillic-ext */
 
-@import url("https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
 
 /* ОБНУЛЕНИЕ СТИЛЕЙ */
 *,
@@ -41,197 +40,154 @@ body {
 	height: 100%;
 }
 html {
-	font-size: 16px; /* по умолчанию */
 }
 body {
 	line-height: 1;
+	font-family: "Roboto", sans-serif;
+	background-color: #f5f5f5;
+	padding: 50px;
 }
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
-	padding: 20px;
 }
 /* ------------------------------ */
 
-.block_main {
-	width: 75%;
-	margin: 0px auto;
+.logo {
+	margin: 0px 0px 44px 0px;
 }
 
-.block_1 {
-	display: inline-block;
-	border: 4px solid #a0b3a8;
-	width: 300px;
-	max-height: 200px;
-	overflow: hidden;
-	padding: 20px;
-	margin: 30px 0px 0px 0px;
-	background-color: rgba(160, 179, 168, 0.7);
-}
-
-.block_2 {
-	display: inline-block;
-	border: 6px dashed #a0b3a8;
-	width: 300px;
-	max-height: 200px;
-	overflow: hidden;
-	padding: 20px;
-	margin: 30px 0px 0px 0px;
-	background-color: rgba(160, 179, 168, 0.7);
-	vertical-align: top;
-	overflow: auto;
-}
-
-.block_3 {
-	display: inline-block;
-	border: 5px dotted #a0b3a8;
-	width: 300px;
-	max-height: 200px;
-	overflow: hidden;
-	padding: 20px;
-	margin: 30px 0px 0px 0px;
-	background-color: rgba(160, 179, 168, 0.7);
+.logo_img {
 	vertical-align: top;
 }
 
-.circle_main {
-	height: 400px;
-	margin: 100px 0px 100px 0px;
-	background-color: #ecc8c9;
-	border-radius: 40px;
-	border: 2px solid #b157a6;
-}
-
-.circle_1 {
-	background-color: #bb99b7;
-	padding: 30px;
-	border-radius: 25px;
-	margin: 15px 0px 15px 0px;
-}
-
-.circle_2 {
-	background-color: #bb99b7;
-	padding: 30px;
-	border-radius: 25px;
-	margin: 0px 0px 10px 0px;
-	font-family: "Dancing Script";
-	font-size: 20px;
-}
-
-.circle_3 {
-	background-color: #bb99b7;
-	padding: 30px;
-	border-radius: 25px;
-	margin: 0px 0px 0px 0px;
-	line-height: 90%;
-}
-
-.img {
-	display: block;
-	max-width: 500px;
-	margin: 0px auto;
-	border: 10px double #262741;
-	border-radius: 15px;
-}
-
-.round_1 {
+.logo_text {
 	display: inline-block;
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	background-color: #eeeb33;
-	text-align: center;
-	padding: 100px 0px 0px 0px;
+	font-size: 12px;
 	font-weight: 700;
-	box-shadow: 5px 10px 30px 5px #c575bc;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	color: #4b4b4b;
+	text-transform: uppercase;
 }
 
-.round_2 {
-	font-family: "Dancing Script";
-	display: inline-block;
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	background-color: #e48826;
+.title {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+	color: #02133c;
+	margin: 0px 0px 36px 0px;
+	max-width: 583px;
+	max-height: 84px;
+}
+
+.text_main {
+	max-width: 846px;
+	max-height: 76px;
+	color: #4b4b4b;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 54px 0px;
+}
+
+.main_img {
+	max-width: 846px;
+	max-height: 420px;
+	margin: 0px 0px 50px 0px;
+}
+
+.service_card1,
+.service_card2 {
+	max-width: 324px;
+	max-height: 340px;
+	background-color: #fff;
+	margin: 0px 0px 24px 0px;
+	padding: 50px 44px;
+}
+
+.service_img1,
+.service_img2 {
+	display: block;
+	margin: 0px auto 33px;
+}
+
+.service_card1_title,
+.service_card2_title {
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
 	text-align: center;
-	padding: 100px 0px 0px 0px;
-	vertical-align: top;
-	box-shadow: -50px -25px 30px 5px #c575bc;
-	opacity: 0.7;
+	margin-bottom: 20px;
 }
 
-.round_main {
-	background-color: aqua;
-	margin: 30px;
-	padding: 20px;
-	border-radius: 30px;
+.service_card1_text,
+.service_card2_text {
+	line-height: 24px;
+	letter-spacing: 0.15px;
 	text-align: center;
+	color: #4b4b4b;
 }
 
-.task_centr {
-	width: 300px;
-	margin: 0px auto;
+.block {
+	font-family: "Poppins", sans-serif;
+	background-color: #fff;
+	padding: 25px;
+	margin: 0px 0px 30px 0px;
 }
 
-.task {
-	color: rgb(209, 66, 66);
-	font-size: 50px;
-	border: 2px solid #b157a6;
-	display: inline-block;
-	width: 300px;
-	text-align: center;
-	border-radius: 30px;
-	background-color: rgb(83, 183, 187);
+.block_title {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 48px;
+	margin: 0px 0px 26px 0px;
 }
 
-.krug {
-	width: 200px;
-	height: 200px;
-	background-color: #262741;
-	border-radius: 50%;
+.block_subtitle {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 36px;
+	margin: 0px 0px 19px 0px;
 }
 
-.block_p {
-	margin: 35px;
-	padding: 10px;
-	border: 3px solid #c575bc;
-	background-color: #ecc8c9;
-	border-radius: 25px;
-	opacity: 0.5;
+.block_p_title {
+	font-weight: 600;
+	line-height: 24px;
+	margin: 0px 0px 35px 0px;
 }
 
-.text {
-	display: inline-block;
-	border: 2px dashed #eeeb33;
-	background-color: #faebd7;
-	margin: 50px;
-	padding: 20px;
+.block_text {
+	font-weight: 300;
+	line-height: 24px;
+	margin: 0px 0px 35px 0px;
 }
 
-.block_gr {
-	margin: 60px;
-	padding: 50px;
-	background-color: #ff7f50;
-	border-left: 10px double rgba(166, 68, 33, 0.3);
-	border-right: 15px solid #eeeb33;
-	border-top: 8px dashed #b157a6;
-	border-bottom: 20px dotted #262741;
-	font-style: italic;
-	font-size: 25px;
+.block_li {
+	font-weight: 300;
+	line-height: 26px;
+	margin: 0px 0px 35px 0px;
 }
 
-.button_c {
-	text-align: center;
+.block2 {
+	font-family: "Poppins";
 }
 
-.button {
-	display: inline-block;
-	background-color: #bb99b7;
-	border-radius: 30px;
-	padding: 10px;
-	font-size: 50px;
-	font-family: "Dancing Script";
-	color: #88167b;
-	border: 2px solid #c575bc;
-	box-shadow: 5px 3px 7px 2px #88167b;
+.block2_img {
+	display: block;
+	margin: 0px 0px 10px 0px;
+}
+
+.block2_title {
+	max-width: 465px;
+	font-size: 44px;
+	font-weight: 500;
+	line-height: 58px;
+	margin: 0px 0px 25px 0px;
+}
+
+.block2_text {
+	max-width: 436px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 300;
+	margin: 0px 0px 130px 0px;
 }
